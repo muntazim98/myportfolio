@@ -12,12 +12,17 @@ const Home = () => {
           {/* Text Section */}
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Senior Software Developer</span>
-            <h1 className="h1 mb-6"> Hello I'm<br/><span className="text-accent">Muntazim Khan</span></h1>
+            <h1 className="h1 mb-6"> Hello I&apos;m<br/><span className="text-accent">Muntazim Khan</span></h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-            I specialize in creating seamless digital solutions and have expertise in multiple programming languages and advanced technologies.
+            Experienced Software Developer with expertise in WPF, ASP.NET Core, React.js, Node.js, C#, SQL programming and
+            MongoDB and AI integration with hands on experience on python. Led the development and maintenance of software
+            applications, successfully delivered projects on time and achieved a 40% improvement in app performance and 35%
+            increase in user performance with amazing UI experience. Skilled in solving complex development challenges and creating
+            high-quality, custom software solutions tailored to business needs.
             </p>
             {/* Buttons and Socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
+              <a href="/MuntazimAliKhan-Resume.pdf" download={"MuntazimAliKhan-Resume.pdf"}>
               <Button 
               variant="outline"
               size="lg"
@@ -27,8 +32,10 @@ const Home = () => {
                   </span>
                   <FiDownload className="text-xl"/>
               </Button>
+              </a>
               <div className="mb-8 xl:mb-0">
-                <Socials containerStyles="flex gap-6" 
+                <Socials
+                 containerStyles="flex gap-6" 
                 iconStyles="w-9 h-9 border border-accent rounded-full flex 
                 justify-center items-center text-accent text-base hover:bg-accent
                 hover:text-primary hover:transition-all duration-500"/>

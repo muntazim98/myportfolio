@@ -5,25 +5,25 @@ const services=[
   {
     num:'01',
     title:'Web Development',
-    desc:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magnam.',
+    desc:'Web development combines creativity and technical expertise to craft interactive, user-centric applications. Leveraging frameworks like React.js and Node.js, alongside robust APIs such as ASP.NET Core Web Apis, ensures seamless functionality and scalability. Integration with powerful databases like SQL Server and MongoDB drives efficient data handling for modern web solutions.',
     href:'#'
   },
   {
     num:'02',
     title:'Desktop Development',
-    desc:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magnam.',
+    desc:'Desktop application development blends precision and performance to deliver powerful, user-focused solutions. Utilizing .NET Core, WPF, XAML and Prism ensures modularity, maintainability, and dynamic UI capabilities. With robust database integrations like SQL Server and SQLite, applications achieve seamless data management and scalability.',
     href:'#'
   },
   {
     num:'03',
     title:'Web Scrapping',
-    desc:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magnam.',
+    desc:'Web scraping harnesses the power of browser automation and HTTP requests to extract structured data from diverse web sources efficiently. By combining precision and scalability, it enables streamlined data collection for analytics, automation, and integration into broader systems.',
     href:'#'
   },
   {
     num:'04',
     title:'Logo Design',
-    desc:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magnam.',
+    desc:'specializes in creating impactful and visually appealing logos, blending creativity with design principles to craft unique brand identities.',
     href:'#'
   },
 
@@ -31,7 +31,7 @@ const services=[
 import { motion } from "framer-motion";
 const Services = () => {
   return (
-    <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0">
+    <section className="min-h-[80vh] flex flex-col justify-center py-10">
      <div className="container mx-auto">
         <motion.div 
         initial={{opacity:0}}
