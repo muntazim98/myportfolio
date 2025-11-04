@@ -20,7 +20,7 @@ import {
 const about =
 {
   title: 'About Me',
-  description: 'A Senior Software Developer with 3+ years of experience specializing in Fullstack Development. Experienced with all stages of the development cycle for dynamic web projects, desktop projects. Well-versed in numerous programming languages including JavaScript, C# and SQL. Strong background in project management and customer relations.',
+  description: 'As a Developer with having years of experience specializing in Fullstack Development and exploring the use cases of AI for integration to the business needs. Experienced with all stages of the development cycle for dynamic web projects, desktop projects. Well-versed in numerous programming languages including JavaScript, C# and SQL and hands on experience on Python. Strong background in project management and customer relations.',
   info: [
     {
       fieldnme: 'Name',
@@ -70,7 +70,7 @@ const experience = {
 
 const skills = {
   title: 'My Skills',
-  description: 'Javascript, C#, React JS, Node JS,  Asp.Net Core, HTML5, CSS3, XAML, LINQ, WPF, Prism, Entity Framework, Microsoft SQL Server, MySql, Sqllite, MongoDB',
+  description: 'C#, React JS, Asp.Net Core, WPF, Prism, Entity Framework, Javascript, Node JS, Python, HTML5, CSS3, XAML, LINQ, Microsoft SQL Server, MySql, Sqllite, MongoDB, Azure, AWS',
   skilllist: [
     {
       icon: <FaReact />,
