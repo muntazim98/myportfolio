@@ -19,32 +19,42 @@ import WorkSliderButtons from '@/components/WorkSliderButtons';
 const projects = [
   {
     num: "01",
-    category: "Web Development Front End",
-    title: "Project 1",
-    desc: "An interior design website that is modern, responsive, and visually appealing.",
-    stack: [,{name:'React.js'},{ name: 'Tailwindcss' },{name:'Figma'},{name:'Framer Motion'}],
-    image: "/assets/work/thumb1.png",
-    live: "#",
+    category: "Web Development",
+    title: "Xperts Interior Decoration",
+    desc: "An interior design website that is modern, responsive, asthetic and visually appealing. It showcases various interior design projects, services, and a portfolio to attract potential clients.",
+    stack: [{name:'React.js'},{name: 'ASP.NET Core'},{ name: 'Tailwindcss' },{name:'Figma'},{name:'Framer Motion'}],
+    image: "/assets/work/work1.avif",
+    live: "https://xperts-interior.web.app/",
     github: "#",
   },
   {
     num: "02",
     category: "Fullstack Web Development",
-    title: "Project 2",
+    title: "",
     desc: "A comprehensive web application with user authentication, data management, and responsive design.",
     stack: [ {name:'React.js'}, { name: 'MSSQL Server' }, { name: 'ASP.NET Core' },{name:'C#'},{name:'EF Core'},{name:'AWS'}],
-    image: "/assets/work/thumb2.png",
+    image: "/assets/work/thumb2.avif",
     live: "#",
     github: "#",
   },
   {
     num: "03",
     category: "Desktop App Development",
-    title: "Project 3",
+    title: "Socinator",
     desc: "A desktop application for managing social media automation tasks efficiently. It manages multiple socialMedia accounts and monitors their activities by scheduling task and save a lot of time",
     stack: [{ name: 'WPF' }, { name: 'XAML' }, { name: 'Prism' }, { name: 'SQLite' },{name:'C#'},{name:'MVVM'},{name:'Entity Framework'}],
-    image: "/assets/work/thumb3.png",
-    live: "#",
+    image: "/assets/work/work3.avif",
+    live: "https://socinator.com/",
+    github: "#",
+  },
+  {
+    num: "04",
+    category: "Desktop App Development",
+    title: "Power Browser Installer",
+    desc: "A desktop application for installing Power Browser, a fast and secure web browser. It provides a user-friendly custom interface to download and install the browser with ease.",
+    stack: [{ name: 'WPF' }, { name: 'XAML' },{name:'C#'},{name:'MVVM'},{name:'GCP'}],
+    image: "/assets/work/work4.avif",
+    live: "https://powerbrowser.app/",
     github: "#",
   },
 ]
@@ -76,6 +86,8 @@ const Work = () => {
               <h2 className='text-[42px] font-semibold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize'>
                 {Project.category} Project
               </h2>
+              {/*project title */}
+              <h3 className='text-3xl font-medium text-white/80'>{Project.title}</h3>
               {/*project description */}
               <p className='text-white/60'>{Project.desc}</p>
               <ul className='flex gap-4'>
@@ -94,7 +106,7 @@ const Work = () => {
               {/*Buttons */}
               <div className='flex items-center gap-4'>
                 {/* live project buttton */}
-                <Link href={Project.live} >
+                <Link href={Project.live} target='_blank' rel='noopener noreferrer'>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className='w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group'>
