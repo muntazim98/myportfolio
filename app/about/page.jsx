@@ -62,7 +62,7 @@ const experience = {
     },
     {
       company: 'Tara Space Pvt Ltd',
-      jobtitle: 'Softeware Developer',
+      jobtitle: 'Software Developer',
       year: '2022-2023',
     }
   ]

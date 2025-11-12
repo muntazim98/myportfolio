@@ -5,13 +5,13 @@ const services=[
   {
     num:'01',
     title:'Web Development',
-    desc:'Web development combines creativity and technical expertise to craft interactive, user-centric applications. Leveraging frameworks like React.js and Node.js, alongside robust APIs such as ASP.NET Core Web Apis, ensures seamless functionality and scalability. Integration with powerful databases like SQL Server and MongoDB drives efficient data handling for modern web solutions.',
+    desc:'Web application development combines creativity and technical expertise to craft interactive, user-centric applications with the Integration of AI agents and Apis. Leveraging JS frameworks like React.js and Node.js, alongside robust APIs such as ASP.NET Core, ensures seamless functionality and scalability. Integration with powerful databases like SQL and MongoDB drives efficient data handling for modern web solutions.',
     href:'#'
   },
   {
     num:'02',
     title:'Desktop Development',
-    desc:'Desktop application development blends precision and performance to deliver powerful, user-focused solutions. Utilizing .NET Core, WPF, XAML and Prism ensures modularity, maintainability, and dynamic UI capabilities. With robust database integrations like SQL Server and SQLite, applications achieve seamless data management and scalability.',
+    desc:'Desktop application development blends precision and performance to deliver powerful, user-focused solutions. Utilizing .NET Core, WPF, XAML and Prism ensures modularity, maintainability, and dynamic UI capabilities with the integration of AI agents and Apis. With robust database integrations like SQL Server and SQLite, applications achieve seamless data management and scalability.',
     href:'#'
   },
   {
@@ -22,8 +22,8 @@ const services=[
   },
   {
     num:'04',
-    title:'Logo Design',
-    desc:'specializes in creating impactful and visually appealing logos, blending creativity with design principles to craft unique brand identities.',
+    title:'Api Development',
+    desc:'API development is the backbone of modern software, enabling seamless communication between applications. By designing robust and scalable APIs using technologies like ASP.NET Core and Node JS, developers facilitate data exchange and functionality integration, empowering diverse platforms to work together efficiently.',
     href:'#'
   },
 
