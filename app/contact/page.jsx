@@ -16,11 +16,9 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { toast } from "react-toastify";
 
 const info = [
   { icon: <FaPhoneAlt />, title: "Phone", description: "(+91) 7328857979" },
@@ -75,11 +73,10 @@ export default function Contact() {
         "YOUR_PUBLIC_KEY"
       );
   
-      // EmailJS sends "OK" (string) on success
-      if (response.status === 200) {
-        toast.success("Message sent successfully!");
-      }
-  
+      // EmailJS successful response:
+    // { status: 200, text: "OK" }
+    if (response.status === 200) {
+      toast.success("Message sent successfully!");
       setFormData({
         firstname: "",
         lastname: "",
@@ -88,20 +85,20 @@ export default function Contact() {
         service: "",
         message: "",
       });
-    } 
-  
-    catch (error) {
-      toast.error("Failed to send message. Please try again after some time.");
+    } else {
+      // When EmailJS returns 400, 422 etc.
+      toast.error("Failed to send message. Invalid request.");
     }
-  
-    finally {
+  } catch (error) {
+    // Only triggers on network or CORS error
+    toast.error("Something went wrong. Please try again later.");
+  }
       setLoading(false);
-    }
+    
   };
 
   return (
     <>
-      <ToastContainer />
 
       <motion.section
         initial={{ opacity: 0 }}

@@ -8,6 +8,7 @@ import Header from "@/components/Header";
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
 
+import ClientWrapper from "@/components/ClientWrapper";
 const jetbrainsmono = JetBrains_Mono({
    subsets: ["latin"],
    weight:["100","200","300","400","500","600","700","800"],
@@ -24,12 +25,14 @@ export default function RootLayout({ children }) {
     <html lang="en">
       
       <body className={jetbrainsmono.variable}>
+      <ClientWrapper>
          <Header />
          <StairTransition/>
          <PageTransition>
          {children}
          <FloatingWhatsApp/>
          </PageTransition>
+         </ClientWrapper>
         
       </body>
     </html>
