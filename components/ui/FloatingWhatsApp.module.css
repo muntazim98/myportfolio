@@ -1,0 +1,36 @@
+/* components/FloatingWhatsApp.module.css */
+
+.floatingIcon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px; /* Set a fixed width */
+    height: 60px; /* Set a fixed height */
+    background-color:#25D366;
+    border-radius: 50%; /* Make it round */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    z-index: 9999;
+  }
+  
+  .floatingIcon:hover {
+    background-color: #075E54;
+    transform: scale(1.1);
+  }
+  
+  .floatingIcon:active {
+    transform: scale(0.9);
+  }
+  
+  .floatingIcon {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  
