@@ -16,10 +16,11 @@ const services=[
   },
   {
     num:'03',
-    title:'Web Scrapping',
-    desc:'Web scraping harnesses the power of browser automation and HTTP requests to extract structured data from diverse web sources efficiently. By combining precision and scalability, it enables streamlined data collection for analytics, automation, and integration into broader systems.',
+    title:'Android Development',
+    desc:'Mobile app development with .NET MAUI empowers cross-platform experiences using a single codebase for Android, iOS, Windows, and macOS. Leveraging XAML, MVVM, and native platform APIs enables responsive, modern UIs with high performance. With support for local storage, REST APIs, and cloud integrations, MAUI apps deliver seamless, scalable, and intelligent mobile solutions enhanced by AI-driven features.',
     href:'#'
-  },
+},
+
   {
     num:'04',
     title:'Api Development',
