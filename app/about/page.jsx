@@ -53,7 +53,7 @@ const about =
 const experience = {
   icon: '/assets/resume/badge.svg',
   title: 'My Experience',
-  description: 'A Senior Software Developer with 4+ years of experience in industry and freelancing experience, specializing in fullstack development of Desktop Apps and Web Apps. Experienced with all stages of the development cycle for dynamic web projects, desktop projects. Well-versed in numerous programming languages including JavaScript and C#,for database MySql and SQLServer . Strong background in project management and customer relations.',
+  description: 'A Senior Software Developer with 3+ years of experience in industry and freelancing experience, specializing in fullstack development of Desktop Apps and Web Apps. Experienced with all stages of the development cycle for dynamic web projects, desktop projects. Well-versed in numerous programming languages including JavaScript and C#,for database MySql and SQLServer . Strong background in project management and customer relations.',
   items: [
     {
       company: 'Globussoft Technologies',
