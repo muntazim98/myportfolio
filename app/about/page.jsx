@@ -1,20 +1,16 @@
 "use client";
 import {
-  FaHtml5,
-  FaCss3,
+  FaPython,
+  FaAws,
   FaJs,
   FaReact,
-  FaNodeJs,
-  FaFigma,
-  FaWpforms
 } from "react-icons/fa";
 import {
-  SiTailwindcss,
   SiDotnet,
   SiCsharp,
-  SiXaml,
   SiMicrosoftsqlserver,
   SiMongodb,
+  
 } from "react-icons/si";
 
 const about =
@@ -50,28 +46,33 @@ const about =
 }
 
 
-const experience = {
-  icon: '/assets/resume/badge.svg',
-  title: 'My Experience',
-  description: 'A Senior Software Developer with 3+ years of experience in industry and freelancing experience, specializing in fullstack development of Desktop Apps and Web Apps. Experienced with all stages of the development cycle for dynamic web projects, desktop projects. Well-versed in numerous programming languages including JavaScript and C#,for database MySql and SQLServer . Strong background in project management and customer relations.',
-  items: [
-    {
-      company: 'Globussoft Technologies',
-      jobtitle: 'Sr Software Developer',
-      year: '2023 Still Working',
-    },
-    {
-      company: 'Tara Space Pvt Ltd',
-      jobtitle: 'Software Developer',
-      year: '2022-2023',
-    }
-  ]
-}
+// const experience = {
+//   icon: '/assets/resume/badge.svg',
+//   title: 'My Experience',
+//   description: 'A Senior Software Developer with 3+ years of experience in industry and freelancing experience, specializing in fullstack development of Desktop Apps and Web Apps. Experienced with all stages of the development cycle for dynamic web projects, desktop projects. Well-versed in numerous programming languages including JavaScript and C#,for database MySql and SQLServer . Strong background in project management and customer relations.',
+//   items: [
+//     {
+//       company: 'Globussoft Technologies',
+//       jobtitle: 'Sr Software Developer',
+//       year: '2023 Still Working',
+//     },
+//     {
+//       company: 'Tara Space Pvt Ltd',
+//       jobtitle: 'Software Developer',
+//       year: '2022-2023',
+//     }
+//   ]
+// }
 
 const skills = {
   title: 'My Skills',
-  description: 'C#, React JS, Asp.Net Core, WPF, Prism, Entity Framework, Javascript, Node JS, Python, HTML5, CSS3, XAML, LINQ, Microsoft SQL Server, MySql, Sqllite, MongoDB, Azure, AWS',
+  description: 'Python, Tensorflow, RAG, Langchain, Langgraph, Pinecone, Instructor Embedding, Semantic kernel, NLP, Gen AI or Generative AI, AI Agents, Azure OpenAI, Azure AI Service, Azure AI Foundary, Image proccessing, Machine Learning, Deep Learning, Asp.NET Core, C#, SQL Server, React JS',
   skilllist: [
+    {
+      icon: <FaPython />,
+      name: 'python',
+    },
+
     {
       icon: <FaReact />,
       name: 'react.js',
@@ -81,11 +82,6 @@ const skills = {
       icon: <SiDotnet />,
       name: '.net core',
     },
-    {
-      icon: <FaNodeJs />,
-      name: 'node.js',
-    },
-
     {
       icon: <FaJs />,
       name: 'javascript',
@@ -103,27 +99,9 @@ const skills = {
       name: 'MongoDB',
     },
     {
-      icon:<SiXaml/>,
-      name: 'XAML',
-    },
-    {
-      icon: <FaHtml5 />,
-      name: 'html 5',
-    },
-    {
-      icon: <FaCss3 />,
-      name: 'css 3',
-    },
-    {
-      icon: <SiTailwindcss />,
-      name: 'tailwindcss',
-    },
-
-    {
-      icon: <FaFigma />,
-      name: 'figma',
-    },
-
+      icon:<FaAws/>,
+      name: 'AWS',
+    }
   ]
 
 }
@@ -137,6 +115,7 @@ import {
 } from "@/components/ui/tooltip";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { motion } from "framer-motion";
+import { icon } from "@fortawesome/fontawesome-svg-core";
 const About = () => {
   return (
     <motion.div
@@ -149,18 +128,18 @@ const About = () => {
     >
       <div className="container mx-auto">
         <Tabs
-          defaultValue="experience"
+          defaultValue="skills"
           className="flex flex-col xl:flex-row gap-[60px]">
           <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0
           gap-6">
-            <TabsTrigger value="experience" >Experience</TabsTrigger>
+            {/* <TabsTrigger value="experience" >Experience</TabsTrigger> */}
             <TabsTrigger value="skills">Skills</TabsTrigger>
             <TabsTrigger value="about">About Me</TabsTrigger>
           </TabsList>
           {/* Content */}
           <div className="min-h-[70vh] w-full">
             {/* Experience */}
-            <TabsContent value="experience" className="w-full" >
+            {/* <TabsContent value="experience" className="w-full" >
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
                 <h3 className="text-4xl font-bold">
                   {experience.title}
@@ -192,7 +171,7 @@ const About = () => {
                 </ScrollArea>
               </div>
 
-            </TabsContent>
+            </TabsContent> */}
 
             {/* Skills */}
             <TabsContent value="skills" className="w-full h-full" >
