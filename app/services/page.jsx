@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 const services = [
   {
     num: "01",
-    title: "GenAI Development",
-    desc: "Generative AI development unlocks intelligent, automated, and creative solutions by integrating advanced models like GPT, Llama, and diffusion systems. Leveraging frameworks such as PyTorch, TensorFlow, and LangChain, applications gain capabilities like natural language understanding, content generation, and intelligent automation. With scalable deployment using cloud platforms and vector databases, GenAI delivers powerful, real-time AI-driven experiences.",
+    title: "AI Development",
+    desc: "AI development unlocks intelligent, automated, and creative solutions by integrating advanced models like GPT, Llama, and diffusion systems. Leveraging frameworks such as PyTorch, TensorFlow, and LangChain, applications gain capabilities like natural language understanding, content generation, and intelligent automation. With scalable deployment using cloud platforms and vector databases, GenAI delivers powerful, real-time AI-driven experiences.",
     href: "#",
   },
   

@@ -158,15 +158,16 @@ export default function Contact() {
                   <SelectContent>
                     <SelectGroup>
                       <SelectLabel>Select a Service</SelectLabel>
+                      <SelectItem value="ai-development">
+                        AI Developement
+                      </SelectItem>
                       <SelectItem value="web-development">
                         Web Development
                       </SelectItem>
                       <SelectItem value="desktop-development">
                         Desktop Development
                       </SelectItem>
-                      <SelectItem value="mobile-development">
-                        Mobile Developement
-                      </SelectItem>
+                      
                       <SelectItem value="api-development">
                         API Developement
                       </SelectItem>

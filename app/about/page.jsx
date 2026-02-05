@@ -16,7 +16,7 @@ import {
 const about =
 {
   title: 'About Me',
-  description: 'As a Developer with having years of experience specializing in Fullstack Development and exploring the use cases of AI for integration to the business needs. Experienced with all stages of the development cycle for dynamic web projects, desktop projects. Well-versed in numerous programming languages including JavaScript, C# and SQL and hands on experience on Python. Strong background in project management and customer relations.',
+  description: 'As an AI Software Developer with years of experience specializing in Fullstack Development and exploring the use cases of AI for integration to the business needs. Experienced with all stages of the development cycle for dynamic web projects, desktop projects. Well-versed in numerous programming languages including JavaScript, C# and SQL and hands on experience on Python. Strong background in project management and customer relations.',
   info: [
     {
       fieldnme: 'Name',
@@ -66,7 +66,7 @@ const about =
 
 const skills = {
   title: 'My Skills',
-  description: 'Python, Tensorflow, RAG, Langchain, Langgraph, Pinecone, Instructor Embedding, Semantic kernel, NLP, Gen AI or Generative AI, AI Agents, Azure OpenAI, Azure AI Service, Azure AI Foundary, Image proccessing, Machine Learning, Deep Learning, Asp.NET Core, C#, SQL Server, React JS',
+  description: 'Python, Tensorflow, ML.NET, RAG, Langchain, Langgraph, Pinecone, Instructor Embedding, Semantic kernel, NLP, Gen AI or Generative AI, AI Agents, Azure OpenAI, Azure AI Service, Azure AI Foundary, Image proccessing, Machine Learning, Deep Learning, Asp.NET Core, C#, SQL Server, React JS',
   skilllist: [
     {
       icon: <FaPython />,

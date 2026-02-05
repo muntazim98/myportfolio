@@ -11,12 +11,14 @@ const Home = () => {
         xl:pt-8 xl:pb-24">
           {/* Text Section */}
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">Sr Software Developer</span>
+            <span className="text-xl">AI Software Developer</span>
             <h1 className="h1 mb-6"> Hello I&apos;m<br/><span className="text-accent">Muntazim Khan</span></h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-            Experienced Software Developer with expertise in Genrerative AI with strong knowledge on Python, RAG, Embeddings and  Vector DB also in application development technologies like ASP.NET Core, React.js, C#, WPF. Led the development and maintenance of software applications and integration of AI LLMs by making chatbot and content generation, successfully delivered projects on time and achieved a 40% improvement in app performance and 35%
-            increase in user performance with amazing UI experience. Skilled in solving complex development challenges and creating
-            high-quality, custom software solutions tailored to business needs.
+            AI-focused Software Developer with expertise in Python, ASP.NET Core, C#, WPF, React.js, cloud platforms, and Generative 
+            AI integration. Led the design and deployment of AI-powered applications, successfully delivering production-ready 
+            solutions on time and achieving a 40% improvement in system performance and a 35% increase in user engagement 
+            through intelligent automation and enhanced UI experiences. Skilled in integrating LLMs, AI services, and scalable backend 
+            systems to solve complex engineering challenges and deliver high-quality, business-driven software solutions.
             </p>
             {/* Buttons and Socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
